@@ -1,0 +1,15 @@
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import {Footer, Header} from '../components'
+
+function MainLayout() {
+  return <>
+  <Header/> 
+  <main className=''>
+    <Outlet/>
+  </main>
+  <Footer/>
+  </>
+}
+
+export default MainLayout

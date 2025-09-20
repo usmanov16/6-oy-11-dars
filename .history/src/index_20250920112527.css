@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --color-primary: #000a00
+}
+
+@layer base {
+  html {
+    @apply min-h-screen;
+  }
+  body {
+    @apply min-h-screen text-base font-normal;
+  }
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+  .list {
+    
+  }
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto max-w-[62.5rem] px-4;
+    }
+} 
