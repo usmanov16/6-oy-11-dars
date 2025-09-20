@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Sitenav from './Sitenav'
 
 function Header() {
-  return <div className='bg-[#F2EAD3] shadow-lg py-6 mb-10'>
+  return <div className='bg-[#F2EAD3] shadow-lg py-6 mb'>
     <div className='container flex items-center justify-between'>
         <Link className='text-2xl font-bold text-[#003161]' to={"/"}>MovieTV</Link>
         <Sitenav/>

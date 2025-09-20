@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import Movies from '../components/Movies';
 
 function Home() {
- return (
- <><Movies/></>
-)}
+ return <><Movies/></>
+}
 
 export default Home
